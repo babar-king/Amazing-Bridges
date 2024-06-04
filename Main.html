@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Amazing Bridges</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="JS/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+      /* nav{
+        background-image: url(images/HD_transparent_picture.png);
+      } */
+           
+      body{
+        background-color: lightblue;
+      }
+      body nav{
+        background-color:rgb(18, 177, 230) ;
+      }
+      .main{
+        width:100%;
+        position:relative;
+        margin-top: 0;
+
+      }
+      .banner{
+      
+        position: absolute;
+         width: 100%;
+        height: 100%;
+  
+      }
+      .content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+}
+.content h1:hover{
+  opacity: 70%;
+}
+      button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button a{
+  text-decoration: none;
+}
+button:hover{
+    background:rgb(18, 177, 230);
+    transition: 0.5s;
+    color: white;
+}
+
+      @media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+ 
+
+    </style>
+  </head>
+ <body>
+    <nav class="navbar navbar-expand-lg main">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#"><img src="images/faisal.png" alt="" width="25%"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 " >
+            <li class="nav-item ">
+              <a class="nav-link active "  aria-current="page" href="Main.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bridges
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="highest.html">Highest Bridges</a></li>
+                <li><a class="dropdown-item" href="tallest.html">Tallest Bridges</a></li>
+                <li><a class="dropdown-item" href="longest.html">Longest Bridges</a></li>
+                <li><a class="dropdown-item" href="oldest.html">Oldest Bridges</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+</nav>
+
+</div>
+<div class="banner">
+  <video autoplay loop muted plays-inline>
+      <source src="images/video1.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+    <h1> AMAZING BRIDGES</h1>
+    <div>
+        <button type="button" ><a href="gallery.html">Explore</a></button>
+    </div>
+</div>
+
+<footer>
+  <div class="content">
+    <div class="top">
+      <div class="logo-details">
+        <span class="logo_name">Amazing Bridges</span>
+      </div>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="link-boxes">
+      <ul class="box">
+        <li class="link_name">Nav Links</li>
+        <li><a href="contact.html">Contact </a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Categories</li>
+        <li><a href="highest.html">Highest Bridges</a></li>
+        <li><a href="longest.html">Longest Bridges</a></li>
+        <li><a href="oldest.html">Oldest Bridges</a></li>
+        <li><a href="tallest.html">Tallest Bridges</a></li>
+      </ul>
+       
+    </div>
+  </div>
+  <div class="bottom-details">
+    <div class="bottom_text">
+      <span class="copyright_text">Copyright © 2024 <a href="#">CodingLab.</a>All rights reserved</span>
+      <span class="policy_terms">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & condition</a>
+      </span>
+    </div>
+  </div>
+</footer>
+ 
+
+ </body>
+  
+</html>

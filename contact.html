@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact us</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/contact.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+               body{
+        background-color: lightblue;
+      }
+      body nav{
+        background-color:rgb(18, 177, 230) ;
+      }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">Amazing Bridges</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+              <li class="nav-item">
+                <a class="nav-link  " aria-current="page" href="Main.html">Home</a>
+              </li>
+              <li class="nav-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bridges
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item " href="highest.html">Highest Bridges</a></li>
+                  <li><a class="dropdown-item" href="tallest.html">Tallest Bridges</a></li>
+                  <li><a class="dropdown-item" href="longest.html">Longest Bridges</a></li>
+                  <li><a class="dropdown-item" href="oldest.html">Oldest Bridges</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="contact-main">
+        <div class="contact-us">
+            <div class="contact">
+                <div class="left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.137712000749!2d67.03045847443207!3d24.927378142578426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2sus!4v1703003219322!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="right">
+                    <h2>Contact Us</h2>
+            
+                        <input type="text" class="field" placeholder="Enter Your Name" id="name">
+                        <p style="font-size: 14px; margin-top:0px; color:rgb(18, 177, 230)" id="nameerror"></p>
+                        <input type="text" class="field" placeholder="Enter Your Email" id="email">
+                        <p style="font-size: 14px; margin-top:0px; color:rgb(18, 177, 230)" id="emailerror"></p>
+                        <input type="text" class="field" placeholder="Enter Your Phone" id="phone">
+                        <p style="font-size: 14px; margin-top:0px; color:rgb(18, 177, 230)" id="phoneerror"></p>
+                        <textarea placeholder="Message" class="field" id="message"></textarea>
+                        <p style="font-size: 14px; margin-top:0px; color:rgb(18, 177, 230)" id="messageerror"></p>
+                        <button class="btn-2" onclick="validation()">Send</button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <span class="logo_name">Amazing Bridges</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Nav Links</li>
+            <li><a href="contact.html">Contact </a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Categories</li>
+            <li><a href="highest.html">Highest Bridges</a></li>
+            <li><a href="longest.html">Longest Bridges</a></li>
+            <li><a href="oldest.html">Oldest Bridges</a></li>
+            <li><a href="tallest.html">Tallest Bridges</a></li>
+          </ul>
+           
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2024 <a href="#">CodingLab.</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>

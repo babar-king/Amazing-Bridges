@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="JS/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+      * {
+        margin: 0;
+      }
+      body{
+        background-color: lightblue;
+      }
+      body nav{
+        background-color:rgb(18, 177, 230) ;
+      }
+      .main{
+        width:100%;
+        position:relative;
+        margin-top: 0;
+      }
+ .banner {
+  position: absolute;
+         width: 100%;
+        height: 100%;
+        border: 2px;
+        background-image: url(images/d.jpg);
+        background-image: 100% 700px;
+        background-size: cover;
+        box-sizing: border-box;
+}
+      .text {
+        width: 100%;
+        height: 80px;
+        border: 2px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.993);
+        opacity: 100%;
+        margin-top: 300px;
+      }
+      .text h1 {
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        color:rgb(18, 177, 230);
+        opacity: 100%;
+      }
+      .text1 {
+        width: 50%;
+        height: 200px;
+        border: 2px;
+        text-align: center;
+        padding-top: 40px;
+        /* margin-left: 350px; */
+        margin:auto;
+        box-sizing: border-box;
+        font-weight: bolder;
+        margin-top: 700px;
+      }
+      .text1 p {
+        font-size: 18px;
+      }
+      .pic1 {
+        width: 100%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 80px;
+      }
+      h2 {
+        font-weight: bold;
+        font-size: 28px;
+        padding-top: 20px;
+        color:rgb(18, 177, 230);
+      }
+      .para1 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 28px;
+        padding-top: 50px;
+      }
+      .pic2 {
+        width: 100%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 250px;
+      }
+      .para2 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        margin-left: 10%;
+        box-sizing: border-box;
+        font-size: 28px;
+        padding-top: 50px;
+      }
+      .pic3 {
+        width: 100%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 270px;
+      }
+      .para3 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        margin-left: 10%;
+        box-sizing: border-box;
+        font-size: 28px;
+        padding-top: 50px;
+      }
+      .pic4 {
+        width: 100%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 150px;
+      }
+      .para4 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 28px;
+        padding-top: 50px;
+      }
+      .pic5 {
+        width: 100%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 260px;
+      }
+      .para5 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 28px;
+        padding-top: 50px;
+      }
+      .download a{
+        text-decoration: none;
+        color: black;
+        padding-left: 3px;
+      }
+      .download{
+        width: 10%;
+        height: 50px;
+        margin-left: 43%;
+        background-color: rgb(18, 177, 230);
+       display: flex;
+       align-items: center;
+       border-radius: 5px;
+      }
+
+      /* max-width:991px */
+      @media (max-width:991px){
+        .banner {
+  position: absolute;
+         width: 100%;
+        height: 100%;
+        border: 2px;
+        background-image: url(images/d.jpg);
+        /* background-image: 100% 700px; */
+        background-size: cover;
+        box-sizing: border-box;
+}
+      .text {
+        width: 100%;
+        height: 100px;
+        border: 2px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.993);
+        opacity: 100%;
+        margin-top: 250px;
+      }
+      .text h1 {
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        color:rgb(18, 177, 230);
+        opacity: 100%;
+      }
+      .text1 {
+        width: 50%;
+        height: 200px;
+        border: 2px;
+        text-align: center;
+        padding-top: 40px;
+        /* margin-left: 350px; */
+        margin:auto;
+        box-sizing: border-box;
+        font-weight: bold;
+        margin-top: 500px;
+      }
+      .text1 p {
+        margin-top: 40px;
+        font-size: 16px;
+      }
+      .pic1 {
+        width: 80%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 90px;
+      }
+      h2 {
+        font-weight: bold;
+        font-size: 26px;
+        padding-top: 30px;
+        color:rgb(18, 177, 230);
+      }
+      .para1 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 20px;
+        padding-top: 70px;
+      }
+      .pic2 {
+        width: 80%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 180px;
+      }
+      .para2 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 20px;
+        padding-top: 70px;
+      }
+      .pic3 {
+        width: 80%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 250px;
+      }
+      .para3 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 20px;
+        padding-top: 70px;
+      }
+      .pic4 {
+        width: 80%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 130px;
+      }
+      .para4 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 20px;
+        padding-top: 70px;
+      }
+      .pic5 {
+        width: 80%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 240px;
+      }
+      .para5 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 20px;
+        padding-top: 70px;
+      }
+      }
+
+      /* Max-width:768 */
+      @media (max-width:768px){
+        .banner {
+  position: absolute;
+         width: 100%;
+        height: 100%;
+        border: 2px;
+        background-image: url(images/d.jpg);
+        /* background-image: 60% 700px; */
+        background-size: cover;
+        box-sizing: border-box;
+}
+      .text {
+        width: 100%;
+        height: 100px;
+        border: 2px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.993);
+        opacity: 100%;
+        margin-top: 230px;
+      }
+      .text h1 {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color:rgb(18, 177, 230);
+        opacity: 100%;
+      }
+      .text1 {
+        width: 50%;
+        height: 200px;
+        border: 2px;
+        text-align: center;
+        padding-top: 40px;
+        /* margin-left: 350px; */
+        margin:auto;
+        box-sizing: border-box;
+        font-weight: bold;
+        margin-top: 500px;
+      }
+      .text1 p {
+        font-size: 15px;
+      }
+      .pic1 {
+        width: 60%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 70px;
+      }
+      h2 {
+        font-weight: bold;
+        font-size: 22px;
+        padding-top: 30px;
+        color:rgb(18, 177, 230);
+        margin: auto;
+      }
+      .para1 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic2 {
+        width: 60%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 160px;
+      }
+      .para2 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic3 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 230px;
+      }
+      .para3 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic4 {
+        width: 60%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 110px;
+      }
+      .para4 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic5 {
+        width: 60%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 220px;
+      }
+      .para5 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      }
+
+       /* Max-width:500 */
+       @media (max-width:500px){
+        .banner {
+  position: absolute;
+         width: 100%;
+        height: 100%;
+        border: 2px;
+        background-image: url(images/d.jpg);
+        /* background-image: 60% 700px; */
+        background-size: cover;
+        box-sizing: border-box;
+}
+      .text {
+        width: 100%;
+        height: 100px;
+        border: 2px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.993);
+        opacity: 100%;
+        margin-top: 200px;
+      }
+      .text h1 {
+        font-weight: bold;
+        font-size: 26px;
+        text-align: center;
+        color:rgb(18, 177, 230);
+        opacity: 100%;
+      }
+      .text1 {
+        width: 50%;
+        height: 200px;
+        border: 2px;
+        text-align: center;
+        padding-top: 40px;
+        /* margin-left: 350px; */
+        margin:auto;
+        box-sizing: border-box;
+        font-weight: bold;
+        margin-top: 480px;
+      }
+      .text1 p {
+        font-size: 14px;
+      }
+      .pic1 {
+        width: 50%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 70px;
+      }
+      h2 {
+        font-weight: bold;
+        font-size: 22px;
+        padding-top: 30px;
+        color:rgb(18, 177, 230);
+        margin: auto;
+      }
+      .para1 {
+        width: 80%;
+        height: 450px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic2 {
+        width: 50%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 120px;
+      }
+      .para2 {
+        width: 80%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic3 {
+        width: 50%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        margin-top: 210px;
+      }
+      .para3 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic4 {
+        width: 50%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 100px;
+      }
+      .para4 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      .pic5 {
+        width: 50%;
+        height: 500px;
+        border: 2px;
+        text-align: center;
+        margin-top: 200px;
+      }
+      .para5 {
+        width: 60%;
+        height: 550px;
+        border: 2px;
+        text-align: center;
+        /* margin-left: 10%; */
+        margin:auto;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding-top: 90px;
+      }
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  background: rgb(18, 177, 230);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin-top: 50px;
+}
+footer::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: white;
+}
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details{
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons{
+  display: flex;
+}
+.content .top .media-icons a{
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a{
+    color: white;
+    border: 1.5px solid white;
+}
+.top .media-icons a:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+.content .link-boxes .box .link_name{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+  letter-spacing: 3px;
+}
+.link-boxes .box .link_name::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #47b2e4;
+}
+.content .link-boxes .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+.content .link-boxes .box li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.3s ease
+}
+.content .link-boxes .box li a:hover{
+  opacity: 1;
+  text-decoration: none;
+  color: #47b2e4;
+}
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+.link-boxes .input-box input{
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 1.5px solid #47b2e4;
+  background: transparent;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+  background: white;
+  color: black;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+  opacity: 1;
+  border: 1.5px solid white;
+  background-color: transparent;
+  color: white;
+}
+footer .bottom-details{
+  width: 100%;
+  background: black;
+  border-top: 1.5px solid white;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+  color: #47b2e4;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
+@media (max-width: 900px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  .content .top .logo-details{
+    font-size: 26px;
+  }
+  .content .top .media-icons a{
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 3 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px){
+  footer::before{
+    top: 145px;
+  }
+  footer .content .top{
+    flex-direction: column;
+  }
+  .content .top .media-icons{
+    margin-top: 16px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg main">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#"><img src="images/faisal.png" alt="" width="25%"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bridges
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="highest.html">Highest Bridges</a></li>
+                <li><a class="dropdown-item" href="tallest.html">Tallest Bridges</a></li>
+                <li><a class="dropdown-item" href="longest.html">Longest Bridges</a></li>
+                <li><a class="dropdown-item" href="oldest.html">Oldest Bridges</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+</nav>
+<div class="banner">
+  <div class="text">
+    <h1>The Highest Bridges in the World</h1>
+  </div>
+</div>
+    <div class="text1">
+      <p>
+        The official list has more than 300 bridges all over the world. As we
+        don't have the space to tell you about all of them (although we wish we
+        could!), we have chosen a small selection of different crossings. Each
+        one is located in a different part of the world so we can show you some
+        of the greatest feats of engineering found across five continents.
+      </p>
+    </div>
+    <div class="pic1">
+      <img src="images/highest1.jpg" alt="" width="860px" height="500px" />
+      <h2>No.1 (Puli Bridge, China)</h2>
+    </div>
+    <div class="para1">
+      <p>
+        The Puli Bridge, located in the southwestern Chinese province of Yunnan,
+        spans the Lancang River, also known as the Mekong River, near the town
+        of Puli. Completed in 2016, this impressive cable-stayed bridge is a
+        vital transportation link, connecting remote areas and facilitating
+        travel between Puli County and other regions. With a total length of
+        approximately 930 meters (3,051 feet) and a main span of 380 meters
+        (1,247 feet), the Puli Bridge ranks among the longest bridges in Yunnan
+        Province. Its sleek design, featuring a single tall pylon supporting the
+        roadway suspended by steel cables, adds to the region's modern
+        infrastructure. The construction of the Puli Bridge represents China's
+        ongoing commitment to improving transportation infrastructure in remote
+        areas, promoting economic development, and enhancing regional
+        connectivity. As a crucial artery for commerce and travel, the Puli
+        Bridge plays a significant role in the lives of local residents and
+        contributes to the growth and prosperity of the surrounding communities.
+      </p>
+    </div>
+    <div class="pic2">
+      <img src="images/highest2.jpg" alt="" width="860px" height="500px" />
+      <h2>No.2 (Qingshui River Bridge, China)</h2>
+    </div>
+    <div class="para2">
+      <p>
+        The Qingshui River Bridge, situated in Guizhou Province, China, stands
+        as a testament to modern engineering prowess. Completed in 2016, this
+        cable-stayed bridge spans the picturesque Qingshui River, connecting the
+        counties of Zheng'an and Pu'an. With a total length of approximately
+        1,854 meters (6,083 feet) and a main span of 460 meters (1,509 feet),
+        the Qingshui River Bridge ranks among the longest bridges in the region.
+        Its sleek and elegant design, characterized by a single tall pylon
+        supporting the roadway suspended by steel cables, adds to the scenic
+        beauty of the surrounding landscape. The construction of the Qingshui
+        River Bridge represents China's ambitious infrastructure development
+        efforts, aimed at enhancing connectivity and promoting economic growth
+        in remote areas. As a vital transportation link for local residents and
+        a tourist attraction for visitors, the bridge plays a significant role
+        in facilitating travel and commerce while contributing to the overall
+        development and prosperity of the region.
+      </p>
+    </div>
+    <div class="pic3">
+      <img src="images/highest3.jpg" alt="" width="860px" height="500px" />
+      <h2>No.3 (Sidu River Bridge)</h2>
+    </div>
+    <div class="para3">
+      <p>
+        The Sidu River Bridge is an engineering marvel that spans across the
+        breathtaking Sidu River Gorge in China's Hubei Province. As the world's
+        highest suspension bridge, towering at a dizzying height of
+        approximately 500 meters (1,640 feet) above the canyon floor, it
+        commands attention with its awe-inspiring presence. This architectural
+        feat combines structural ingenuity with breathtaking aesthetics,
+        featuring sleek lines and sturdy infrastructure that defy the natural
+        elements. Completed in 2009, the bridge serves as a vital transportation
+        link, connecting remote regions while offering travelers a
+        heart-pounding experience as they traverse its lofty heights. Beyond its
+        practical function, the Sidu River Bridge stands as a testament to human
+        innovation and ambition, symbolizing the boundless possibilities of
+        engineering in overcoming geographical challenges.
+      </p>
+    </div>
+    <div class="pic4">
+      <img src="images/highest4.jpg" alt="" width="860px" height="500px" />
+      <h2>No.4 (Balinghe Bridge)</h2>
+    </div>
+    <div class="para4">
+      <p>
+        The Balinghe Bridge is a remarkable engineering achievement located in
+        Guizhou Province, China. Completed in 2009, this cable-stayed bridge
+        spans the majestic Baling River Gorge, connecting the counties of Yuping
+        and Shuicheng. With a total length of approximately 1,108 meters (3,635
+        feet) and a main span of 680 meters (2,231 feet), the Balinghe Bridge is
+        one of the longest and highest bridges in the world. Its sleek and
+        elegant design features a single tall pylon supporting the roadway
+        suspended by steel cables, offering breathtaking views of the
+        surrounding mountainous landscape. The construction of the Balinghe
+        Bridge is a testament to China's ambitious infrastructure development
+        efforts, aimed at enhancing connectivity and promoting economic growth
+        in remote areas. Serving as a vital transportation link for local
+        residents and a tourist attraction for visitors, the bridge plays a
+        significant role in facilitating travel and commerce while contributing
+        to the overall development and prosperity of the region.
+      </p>
+    </div>
+    <div class="pic5">
+      <img src="images/highest5.jpg" alt="" width="860px" height="500px" />
+      <h2>No.5 (The Chenab Bridge)</h2>
+    </div>
+    <div class="para5">
+      <p>
+        The Chenab Bridge, located in the stunning terrain of the Jammu and
+        Kashmir region in India, stands as an architectural marvel and a
+        testament to human ingenuity. Spanning the formidable Chenab River
+        gorge, it holds the distinction of being the world's highest railway
+        bridge, soaring approximately 359 meters (1,178 feet) above the
+        riverbed. This engineering masterpiece embodies both strength and grace,
+        with its robust structure and elegant design seamlessly blending into
+        the breathtaking natural surroundings.
+      </p>
+    </div>
+    <div class="download">
+      <a href="The highest Bridges in the World.docx" download>Download History</a>
+    </div>
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <span class="logo_name">Amazing Bridges</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Nav Links</li>
+            <li><a href="contact.html">Contact </a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Categories</li>
+            <li><a href="highest.html">Highest Bridges</a></li>
+            <li><a href="longest.html">Longest Bridges</a></li>
+            <li><a href="oldest.html">Oldest Bridges</a></li>
+            <li><a href="tallest.html">Tallest Bridges</a></li>
+          </ul>
+           
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2024 <a href="#">CodingLab.</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
